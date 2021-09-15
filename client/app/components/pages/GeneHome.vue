@@ -3379,7 +3379,7 @@ export default {
       this.featureMatrixModel.isBasicMode = false;
       this.featureMatrixModel.isSimpleMode = false;
       this.filterModel.isBasicMode = false;
-      this.cohortModel.analyzeCodingVariantsOnly = true;
+      this.cohortModel.analyzeCodingVariantsOnly = false;
       this.calcFeatureMatrixWidthPercent();
       this.onFilesLoaded(true, function() {
         let options = { name: 'home', query: { mode: 'advanced'}};
